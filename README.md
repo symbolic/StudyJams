@@ -1,5 +1,6 @@
 
 [English Version](README_EN.md)
+[Google Play下载地址](https://play.google.com/store/apps/details?id=cn.studyjams.s1.sj31.mengweiguo)
 
 ## 求解周长和面积
 
