@@ -21,9 +21,9 @@ To calculate the perimeter/area, were you tired of looking for the paper, pens, 
  + regular polygon
 
 ### Features:
- 1. Input the side's length (regular polygon need to enter the number of sides), press the `alculate` button to start the calculation
- + Modify the parameters, press the `alculate` button and calculate again
- + Reset function: Press the `eset` button to clear all input, return to the initial state
+ 1. Input the side's length (regular polygon need to enter the number of sides), press the `calculate` button to start the calculation
+ + Modify the parameters, press the `calculate` button and calculate again
+ + Reset function: Press the `reset` button to clear all input, return to the initial state
  + full of error messages, easy to troubleshoot the problem
   + If your input parameters is not complete, suggesting that **missing parameter!**
   + If you input the side length/radius is 0, indicating **length must be greater than 0!**
