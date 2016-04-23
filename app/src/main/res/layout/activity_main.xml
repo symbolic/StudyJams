@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.studyjams.s1.sj31.mengweiguo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/shape_text" />
+
+        <CheckBox
+            android:id="@+id/triangle_checkbox"
+            style="@style/CheckBoxStyle"
+            android:text="@string/triangle_text" />
+
+        <LinearLayout style="@style/LinearEditViewStyle">
+
+            <EditText
+                android:id="@+id/triangle_side_one"
+                style="@style/EditViewStyle"
+                android:hint="@string/side1_text" />
+
+            <EditText
+                android:id="@+id/triangle_side_two"
+                style="@style/EditViewStyle"
+                android:layout_marginLeft="16dp"
+                android:hint="@string/side2_text" />
+
+            <EditText
+                android:id="@+id/triangle_side_three"
+                style="@style/EditViewStyle"
+                android:layout_marginLeft="16dp"
+                android:hint="@string/side3_text" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/square_checkbox"
+            style="@style/CheckBoxStyle"
+            android:text="@string/square_text" />
+
+        <LinearLayout style="@style/LinearEditViewStyle">
+
+            <EditText
+                android:id="@+id/square_length_text"
+                style="@style/EditViewStyle"
+                android:hint="@string/length_text" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/circle_checkbox"
+            style="@style/CheckBoxStyle"
+            android:text="@string/circle_text" />
+
+        <LinearLayout style="@style/LinearEditViewStyle">
+
+            <EditText
+                android:id="@+id/circle_radius_text"
+                style="@style/EditViewStyle"
+                android:hint="@string/radius_text" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/rectangle_checkbox"
+            style="@style/CheckBoxStyle"
+            android:text="@string/rectangle_text" />
+
+        <LinearLayout style="@style/LinearEditViewStyle">
+
+            <EditText
+                android:id="@+id/rectangle_width_text"
+                style="@style/EditViewStyle"
+                android:hint="@string/width_text" />
+
+            <EditText
+                android:id="@+id/rectangle_height_text"
+                style="@style/EditViewStyle"
+                android:layout_marginLeft="16dp"
+                android:hint="@string/height_text" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/regular_checkbox"
+            style="@style/CheckBoxStyle"
+            android:text="@string/regular_polygon_text" />
+
+        <LinearLayout style="@style/LinearEditViewStyle">
+
+            <EditText
+                android:id="@+id/regular_length_text"
+                style="@style/EditViewStyle"
+                android:hint="@string/length_text" />
+
+            <EditText
+                android:id="@+id/regular_number_text"
+                style="@style/EditViewStyle"
+                android:layout_marginLeft="16dp"
+                android:hint="@string/side_number_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout style="@style/LinearButtonStyle">
+
+                <Button
+                    style="@style/ButtonStyle"
+                    android:onClick="calculate"
+                    android:text="@string/calculate_text" />
+
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/LinearButtonStyle">
+
+                <Button
+                    style="@style/ButtonStyle"
+                    android:onClick="resetInput"
+                    android:text="@string/reset_text" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/perimeter_text" />
+
+        <TextView
+            android:id="@+id/perimeter_text"
+            style="@style/ResultTextView" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/area_text" />
+
+        <TextView
+            android:id="@+id/area_text"
+            style="@style/ResultTextView" />
+
+
+    </LinearLayout>
+
+</ScrollView>

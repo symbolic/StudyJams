@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Perimeter and Area</string>
+    <string name="shape_text">shape</string>
+    <string name="triangle_text">Triangle</string>
+    <string name="square_text">Square</string>
+    <string name="circle_text">Circle</string>
+    <string name="radius_text">Radius</string>
+    <string name="rectangle_text">Rectangle</string>
+    <string name="regular_polygon_text">Regular polygon</string>
+    <string name="perimeter_text">perimeter</string>
+    <string name="area_text">area</string>
+    <string name="calculate_text">calculate</string>
+    <string name="reset_text">reset</string>
+    <string name="side1_text">s1</string>
+    <string name="side2_text">s2</string>
+    <string name="side3_text">s3</string>
+    <string name="length_text">length</string>
+    <string name="width_text">width</string>
+    <string name="height_text">height</string>
+    <string name="side_number_text">number</string>
+    <string name="miss_parameter">missing parameter!</string>
+    <string name="length_number_invalid">Length must be larger than 0!</string>
+    <string name="side_number_float">Side number must be a integer!</string>
+    <string name="side_number_invalid">Side number must be larger than 3!</string>
+    <string name="triangle_length_error">Less one of the length is error!</string>
+    <string name="initialize_successfully">Initialize successfully!</string>
+</resources>

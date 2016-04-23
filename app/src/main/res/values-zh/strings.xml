@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">求解周长和面积</string>
+    <string name="area_text">面积</string>
+    <string name="calculate_text">计算</string>
+    <string name="height_text">高度</string>
+    <string name="length_text">长度</string>
+    <string name="perimeter_text">周长</string>
+    <string name="width_text">宽度</string>
+    <string name="triangle_text">三角形</string>
+    <string name="square_text">正方形</string>
+    <string name="side_number_text">边数</string>
+    <string name="side3_text">边长3</string>
+    <string name="side2_text">边长2</string>
+    <string name="side1_text">边长1</string>
+    <string name="shape_text">形状</string>
+    <string name="reset_text">重置</string>
+    <string name="regular_polygon_text">正多边形</string>
+    <string name="rectangle_text">长方形</string>
+    <string name="side_number_float">边数必须是整数！</string>
+    <string name="miss_parameter">缺少参数！</string>
+    <string name="triangle_length_error">至少一个边长有误！</string>
+    <string name="initialize_successfully">初始化成功！</string>
+    <string name="length_number_invalid">长度必须大于0！</string>
+    <string name="side_number_invalid">边数必须大于3!</string>
+    <string name="circle_text">圆</string>
+    <string name="radius_text">半径</string>
+</resources>
